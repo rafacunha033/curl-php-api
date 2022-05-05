@@ -1,0 +1,26 @@
+{
+    "name": "rafacunha033/apiTest",
+    "description": "Testing some api's",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rafael C. Ribeiro",
+            "email": "rafacunha.prof033@gmail.com"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },        
+        "files": [
+			"source/Config.php"
+		]
+	},
+	"require": {
+
+	}
+}
